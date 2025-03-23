@@ -24,3 +24,12 @@ class Locators:
 
     #Профиль
     TEXT_PROFILE = By.XPATH, '//*[contains(text(), "Профиль")]'
+
+    #кнопка "Конструктор"
+    BUTTON_CONSTRUCTOR = By.XPATH, '//*[contains(text(), "Конструктор")]'
+
+    #кнопка "Оформить заказ"
+    BUTTON_MAKE_ORDER = By.XPATH, '//*[contains(text(), "Оформить заказ")]'
+
+    #логотип "Stellar"
+    LOGO_STELLAR = By.XPATH, '//*[contains(@class, "AppHeader_header__logo__2D0X2")]'
