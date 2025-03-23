@@ -21,3 +21,6 @@ class Locators:
 
     #кнопка "Выйти"
     BUTTON_LOGOUT = By.XPATH, '//*[contains(text(), "Выход")]'
+
+    #Профиль
+    TEXT_PROFILE = By.XPATH, '//*[contains(text(), "Профиль")]'
