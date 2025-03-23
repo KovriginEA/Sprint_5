@@ -8,4 +8,4 @@ class TestNavigationToUserAccount:
         # Клик по кнопке «Личный кабинет»
         WDW(driver, 5).until(EC.element_to_be_clickable(Locators.BUTTON_PERSONAL_ACCOUNT)).click()
         WDW(driver, 5).until(EC.visibility_of_element_located(Locators.TEXT_PROFILE))
-        assert driver.find_element(*Locators.TEXT_PROFILE).is_displayed()
+        assert driver.current_url == TestLinks.main_url+"/account/profile"
