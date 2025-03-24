@@ -33,3 +33,15 @@ class Locators:
 
     #логотип "Stellar"
     LOGO_STELLAR = By.XPATH, '//*[contains(@class, "AppHeader_header__logo__2D0X2")]'
+
+    #раздел начинки
+    BUTTON_STUFFING = By.XPATH, '//*[contains(text(), "Начинки")]'
+
+    # раздел соусы
+    BUTTON_SAUCE = By.XPATH, '//*[contains(text(), "Соусы")]'
+
+    # раздел булки
+    BUTTON_BREAD = By.XPATH, '//*[contains(text(), "Булки")]'
+
+    #раздел активный
+    TAB_ACTIVE = By.XPATH, '//*[contains(@class, "tab_tab_type_current__2BEPc")]'
