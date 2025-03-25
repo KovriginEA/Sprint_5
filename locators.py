@@ -45,3 +45,6 @@ class Locators:
 
     #раздел активный
     TAB_ACTIVE = By.XPATH, '//*[contains(@class, "tab_tab_type_current__2BEPc")]'
+
+    #link войти
+    LINK_LOGIN = By.XPATH, '//*[contains(@class, "Auth_link__1fOlj")]'
