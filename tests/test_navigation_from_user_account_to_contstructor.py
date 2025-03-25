@@ -1,5 +1,3 @@
-#Проверь переход по клику на «Конструктор» и на логотип Stellar Burgers.
-
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait as WDW
 from data import  TestLinks
