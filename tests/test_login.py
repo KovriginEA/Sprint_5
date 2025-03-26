@@ -1,6 +1,6 @@
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait as WDW
-from data import  TestLinks, TestUser
+from data import  TestLinks
 from locators import Locators
 from support import make_login
 
