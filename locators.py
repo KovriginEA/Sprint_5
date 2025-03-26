@@ -48,3 +48,16 @@ class Locators:
 
     #link войти
     LINK_LOGIN = By.XPATH, '//*[contains(@class, "Auth_link__1fOlj")]'
+
+    #name в регистрации
+    REG_NAME = By.XPATH, '//label[text()="Имя"]/following-sibling::input'
+
+    #email в регистрации
+    REG_EMAIL = By.XPATH, '//label[text()="Email"]/following-sibling::input'
+
+    #пароль в регистрации
+    REG_PASSWORD = By.XPATH, '//label[text()="Пароль"]/following-sibling::input'
+
+    #кнопка зарегистрироваться
+    BUTTON_REG_SUBMIT = By.XPATH,'//*[contains(text(), "Зарегистрироваться")]'
+
