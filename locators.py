@@ -61,3 +61,7 @@ class Locators:
     #кнопка зарегистрироваться
     BUTTON_REG_SUBMIT = By.XPATH,'//*[contains(text(), "Зарегистрироваться")]'
 
+    #ошибка неверный пароль
+    TEXT_WRONG_PASSWORD = By.XPATH, '//*[contains(@class, "input__error")]'
+
+

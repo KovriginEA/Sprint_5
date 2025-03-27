@@ -11,8 +11,8 @@ def make_login(driver):
     WDW(driver, 5).until(EC.element_to_be_clickable(Locators.BUTTON_LOGIN)).click()
     WDW(driver, 5).until(EC.element_to_be_clickable(Locators.BUTTON_MAKE_ORDER))
 
-def generate_password():
-    random_password = ''.join(random.choices(string.ascii_letters, k=6))
+def generate_password(length=6):
+    random_password = ''.join(random.choices(string.ascii_letters, k=length))
     return random_password
 
 def generate_email():
